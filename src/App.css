@@ -1,14 +1,18 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
-
+a img {
+  height: 50px;
+  width: 50px;
+}
+a:hover img {
+  opacity: 0.5;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,17 +20,81 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  animation: App-logo-spin infinite 20s linear;
+  background-image: url(../public/favicon.jpeg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3 {
+  color:black
+}
+.font {
+  width: 500px;
+  mix-blend-mode: multiply;
+}
+nav {
+  background-color: white;  
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin: none;
+  align-content: center;
+  font-size: 30px;
+  border-radius: 10px;;
 }
 
+.span2 {
+  font-size: 60px;
+  background: rgb(251, 255, 167);
+margin-left: 20px;
+transform: rotate(25deg);
+color: black;
+}
+.spotify {
+
+}
+.soundcloud {
+  
+}
+.apple {
+  
+}
+.span1 {
+  background: rgb(167, 245, 255);
+  padding: 10px;
+  color: black;
+  margin-bottom: 250px;
+  transform: rotate(-25deg);
+font-size: 300px;
+margin-left: -300px;
+position: absolute;
+opacity: 0.5;
+
+}
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: black;
+  font-size: calc(30px + 2vmin);
 }
+a:hover {
+  color: rgb(208, 248, 255);
+  fill: white;
+  z-index: 1;
+}
+
+
+img { 
+  height: 40%;
+  width: 40%;
+  mix-blend-mode: multiply;
+
+}
+
